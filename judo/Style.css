@@ -1,0 +1,182 @@
+body{
+    background: url(../judo/img/judo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    color: aliceblue;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+    opacity: 0,6;
+    background-color: #aba8a800;
+    
+}
+
+.lista{
+    border: 1px solid #a2a9b113;
+    background-color: #f8f9fa13;
+    padding: 10px;
+    font-size: 95%;
+    position: relative;
+    line-height: 3.7em;
+    width: 480px;
+    -webkit-border-radius: 10px; border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 55px 15px #4b1ba3; 
+    box-shadow: 0px 9px 25px 21px #a39b9b23;
+    word-spacing: 20%;
+}
+
+.brancaCinza{
+    text-decoration: nome;
+    font-size: 25px;
+    color: rgb(105, 100, 98);
+    padding: 5px 50px;
+    border: 2px solid rgb(219, 219, 219);
+    position: relative;
+    word-spacing: 30%;
+}
+.brancaCinza::before,
+.brancaCinza::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+.brancaCinza::before{
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.brancaCinza::after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 2px 2px 0;
+}
+
+.brancaCinza:hover::before,
+.brancaCinza:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+
+
+.branca{
+    text-decoration: nome;
+    font-size: 25px;
+    color: rgb(235, 225, 222);
+    padding: 5px 50px;
+    border: 2px solid rgb(243, 240, 238);
+    position: relative;
+    margin-top: auto;
+}
+
+.branca::before,
+.branca::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+.branca::before{
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.branca::after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.branca:hover::before,
+.branca:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+
+.cinza{
+    text-decoration: nome;
+    font-size: 25px;
+    color: rgb(104, 104, 104);
+    padding: 5px 50px;
+    border: 2px solid rgb(104, 104, 104);
+    position: relative;
+    margin-top: auto;
+}
+
+.cinza::before,
+.cinza::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+.cinza::before{
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.cinza::after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.cinza:hover::before,
+.cinza:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+.cinzaAzul{
+    text-decoration: nome;
+    font-size: 25px;
+    color: rgb(104, 104, 104);
+    padding: 5px 50px;
+    border: 2px solid rgb(104, 104, 104);
+    position: relative;
+    margin-top: auto;
+}
+
+.cinzaAzul::before,
+.cinzaAzul::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+.cinzaAzul::before{
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.cinzaAzul::after{
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.cinzaAzul:hover::before,
+.cinzaAzul:hover::after{
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
